@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <meta name="description" content="Web designer and front-end developer" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- CSS 파일을 link 태그로 수정 -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Bootstrap CSS 파일 -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="home.css" />
+    <!-- Animate.css CSS 파일 -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Raleway", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .nav-header,
+      .nav-screen,
+      .content,
+      .section {
+        transition: 0.4s ease;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- navbar header -->
+    <div class="nav-header">
+      <i class="fa fa-bars fa-3x"></i>
+      <div class="header-links">
+        <ul>
+          <li data-menuanchor="tivethPage"><a href="#career">CONTACT</a></li>
+          <li data-menuanchor="fourthPage"><a href="#contact">QA</a></li>
+          <li data-menuanchor="thirdPage">
+            <a href="#portfolio">PROJECT</a>
+          </li>
+          <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- end navbar header -->
+
+    <!-- sidebar slider -->
+    <div class="nav-screen">
+      <i class="fa fa-times fa-3x"></i>
+      <div class="nav-container">
+        <div class="nav-links">
+          <ul id="myMenu">
+            <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+            <li data-menuanchor="tivethPage"><a href="#career">CAREER</a></li>
+            <li data-menuanchor="thirdPage">
+              <a href="#portfolio">PROJECT</a>
+            </li>
+            <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- end navbar slider -->
+
+    <!-- begin fullpage -->
+    <div id="fullpage">
+      <!-- begin section -->
+      <div
+        class="section aboutme"
+        data-anchor="aboutme"
+        style="text-align: left"
+      >
+        <div class="opaque-bg animated fadeInDown">
+          <h1 style="color: white; font-size: 40px">
+            GAME<span style="color: #ff6363">/</span>QA
+          </h1>
+          <h1 style="color: white; font-size: 40px">
+            DEVLOPER<span style="color: #ff6363">/</span>TESTER
+          </h1>
+          <br/>
+          <p>
+            <span id="holder-2" style="font-size: 22px; font-weight: bold;"></span
+            ><span class="blinking-cursor"></span>
+          </p>
+          <p>
+            <span id="holder-3" style="font-size: 22px; font-weight: bold;"></span
+            ><span class="blinking-cursor"></span>
+          </p>
+          <p>
+            <span id="holder-4" style="font-size: 22px; font-weight: bold;"></span
+            ><span class="blinking-cursor"></span>
+          </p>
+          <p>
+            <span id="holder-5" style="font-size: 22px; font-weight: bold;"></span
+            ><span class="blinking-cursor"></span>
+          </p>
+        </div>
+        <i
+          id="moveDown"
+          class="fa fa-chevron-down fa-3x bounce"
+          style="margin-left: 50%"
+        ></i>
+      </div>
+      <!-- end section -->
+
+      <!-- 학력사항 -->
+      <div class="section" data-anchor="skills" style="text-align: left">
+        <div class="content">
+          <br />
+          <div
+            class="wow fadeInUp container-skillbar"
+            data-wow-delay="0.2s"
+            style="float: left;"
+          >
+            <div class="card">
+              <div class="container-card bg-white-box sk">
+                <p class="card-title" style="font-size: 30px;">학력/자격증</p>
+                <p class="card-title">2017.03 ~ 2025.02</p>
+                <p class="card-description">부천대학교 컴퓨터소프트웨어과 졸업 (3.7/4.5)</p><br/>
+                <p class="card-title">2024.11.10</p>
+                <p class="card-description">Linux 마스터 2급 필기</p><br/>
+                <p class="card-title">2024.06.18</p>
+                <p class="card-description">정보처리산업기사</p><br/>
+                <p class="card-title">2023.12.15</p>
+                <p class="card-description">SQLD</p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="wow fadeInUp container-skillbar"
+            data-wow-delay="0.2s"
+            style="float: left;"
+          >
+          <div class="card">
+            <div class="container-card bg-white-box sk">
+              <p class="card-title" style="font-size: 30px;">대외활동</p>
+              <p class="card-title">2024.09 ~ 2024.11</p>
+              <p class="card-description">(주)이니그마 인턴</p>
+              <p class="card-description">Software Testcase 작성/테스트</p><br/>
+              <p class="card-title">2024.06 ~ 2024.07</p>
+              <p class="card-description">제펫스튜디오 현장실습생</p>
+              <p class="card-description">2D,3D Unity 게임 제작</p><br/>
+              <p class="card-title">2024.01 ~ 2024.011</p>
+              <p class="card-description">실시간 채팅 쇼핑몰</p><br/>
+              <p class="card-description">SpringBoot/React 기반</p>
+              <p class="card-description">AWS EC2 환경 배포</p>
+            </div>
+          </div>
+          </div>
+
+          <!-- 스킬 섹션 -->
+          <div
+            class="wow fadeInUp container-skillbar"
+            data-wow-delay="0.2s"
+            style="float: left; width: 40%;"
+          >
+          <div class="card">
+            <div class="container-card bg-white-box sk">
+              <p class="card-title" style="font-size: 30px;">기술</p>
+              <div class="item" style="display: flex; align-items: center;">
+                <div class="circle-bg">
+                  <img src="./Download/Jira.png" alt="React">
+                </div>
+                <div style="color: white;">Jira를 사용하여 현재 급한 이슈는 무엇인지, 잊은 이슈는 있는지, 여러 이슈들에 대한 내용과 진행상황을 팀원이 보기 좋게 작성</div>
+              </div>
+              <div class="item" style="display: flex; align-items: center;">
+                <div class="circle-bg">
+                  <img src="./Download/Github.png" alt="GitHub">
+                </div>
+                <div style="color: white;">GitHub 브랜치 별 형상관리, 버전관리, 유연한 커밋 관리</div>
+              </div>
+              <div class="item" style="display: flex; align-items: center;">
+                <div class="circle-bg">
+                  <img src="./Download/AWS.png" alt="React">
+                </div>
+                <div style="color: white;">Linux 환경설정, Back, front 프로젝트 배포, Server Log 관리</div>
+              </div>
+              <div class="item" style="display: flex; align-items: center;">
+                <div class="circle-bg">
+                  <img src="./Download/Excel.png" alt="MySQL">
+                </div>
+                <div style="color: white;">Excel을 사용해 다양한 TestCase 설계, 테스트 진행상황을 분류와 우선순위를 매겨 문서화</div>
+              </div>
+              <div class="item" style="display: flex; align-items: center;">
+                <div class="circle-bg">
+                  <img src="./Download/Unity.png" alt="MySQL">
+                </div>
+                <div style="color: white;">뱀파이어 서바이벌, FPS, Puzzle, Quiz 와 같은 간단한 게임 구현</div>
+              </div>
+              <div class="item" style="display: flex; align-items: center;">
+                <div class="circle-bg">
+                  <img src="./Download/InteliJ.png" alt="MySQL">
+                </div>
+                <div style="color: white;">홈페이지 디자인, RDBS 연동, Search 기능, Recomend 기능 등 개발기술, 프로세스에 대한 이해도</div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end section -->
+
+      <div class="section" data-anchor="career">
+        <div class="content-slide">
+          <div class="slide">
+            <h1
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="color: white; font-size: 40px"
+            >
+              PROJECT
+            </h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">
+              Open Chatting Shop
+            </p>
+            <p
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="font-size: 10px; margin-bottom: 20px"
+            >
+              <strong style="font-size: 12px; color: #06a2cb">프로젝트 설명</strong>
+              <strong>
+                <a
+                  href="./Download/Shopper.pdf"
+                  style="color: white; font-size: 14px"
+                  target="_blank"
+                  download
+                >
+                  "pdf 다운로드"
+                </a>
+              </strong>
+              <strong style="font-size: 12px; color: #06a2cb"
+                > 실사용 페이지</strong
+              >
+              <strong
+                ><a
+                href="http://shopperbu.store/"
+                style="color: white; font-size: 14px"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                "shopperbu.store"
+              </a>
+                </strong>
+            </p>
+            <img
+              class="wow fadeInUp"
+              data-wow-delay="0.2s"
+              data-src="https://i.imgur.com/0af1qep.jpeg"
+              alt="Shopper"
+            />
+            
+          </div>
+          
+
+          <div class="slide">
+            <h1
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="color: rgb(0, 0, 0); font-size: 40px"
+            > .
+            </h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">
+              Open Chatting Shop
+            </p>
+            <p
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="font-size: 10px; margin-bottom: 20px"
+            >
+              <strong style="color: white; font-size: 14px"
+                >[ 프로젝트 개요 ]
+                </strong
+              >
+              </p>
+              <img
+                class="wow fadeInUp"
+                data-wow-delay="0.2s"
+                data-src="https://imgur.com/rwfIROw.jpeg"
+                alt="Shopper"
+              />
+            </p>
+          </div>
+
+          <div class="slide">
+            <h1
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="color: rgb(0, 0, 0); font-size: 40px"
+            > .
+            </h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">
+              Open Chatting Shop
+            </p>
+            <p
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="font-size: 10px; margin-bottom: 20px"
+            >
+              <strong style="color: white; font-size: 14px"
+                >[ 개발환경 ]
+                </strong
+              >
+              </p>
+              <img
+                class="wow fadeInUp"
+                data-wow-delay="0.2s"
+                data-src="https://imgur.com/DPClJC1.jpeg"
+                alt="Shopper"
+              />
+            </p>
+          </div>
+
+          <div class="slide">
+            <h1
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="color: rgb(0, 0, 0); font-size: 40px"
+            > .
+            </h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">
+              Open Chatting Shop
+            </p>
+            <p
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="font-size: 10px; margin-bottom: 20px"
+            >
+              <strong style="color: white; font-size: 14px"
+                >[ 상품페이지 ]
+                </strong
+              >
+              </p>
+              <img
+                class="wow fadeInUp"
+                data-wow-delay="0.2s"
+                data-src="https://imgur.com/7n8l2Nm.jpeg"
+                alt="Shopper"
+              />
+            </p>
+          </div>
+
+          <div class="slide">
+            <h1
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="color: rgb(0, 0, 0); font-size: 40px"
+            > .
+            </h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">
+              Open Chatting Shop
+            </p>
+            <p
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="font-size: 10px; margin-bottom: 20px"
+            >
+              <strong style="color: white; font-size: 14px"
+                >[ 주문내역 ]
+                </strong
+              >
+              </p>
+              <img
+                class="wow fadeInUp"
+                data-wow-delay="0.2s"
+                data-src="https://imgur.com/C3O7ZP7.jpeg"
+                alt="Shopper"
+              />
+            </p>
+          </div>
+
+          <div class="slide">
+            <h1
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="color: rgb(0, 0, 0); font-size: 40px"
+            > .
+            </h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">
+              Open Chatting Shop
+            </p>
+            <p
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="font-size: 10px; margin-bottom: 20px"
+            >
+              <strong style="color: white; font-size: 14px"
+                >[ 상품관리 ]
+                </strong
+              >
+              </p>
+              <img
+                class="wow fadeInUp"
+                data-wow-delay="0.2s"
+                data-src="https://imgur.com/h5ylIM0.jpeg"
+                alt="Shopper"
+              />
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- begin section -->
+      <div class="section" data-anchor="projects">
+        <div class="content-slide">
+          <div class="slide">
+            <h1
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="color: white; font-size: 40px"
+            >
+              QA
+            </h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">
+              SW PROSESS TEST
+            </p>
+            <p
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="font-size: 10px; margin-bottom: 20px"
+            >
+            <strong>
+              <p
+              style="color: white; font-size: 14px"
+              >
+              "민감한 정보는 보이지않습니다."
+            </p>
+            </strong>
+              </p>
+              <img
+                class="wow fadeInUp"
+                data-wow-delay="0.2s"
+                data-src="https://imgur.com/gCTXYLD.jpeg"
+                alt="Shopper"
+              />
+            </p>
+          </div>
+
+          <div class="slide">
+            <h1
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="color: white; font-size: 40px"
+            >
+              QA
+            </h1>
+            <p class="wow fadeInDown" data-wow-delay="0.2s">
+              SW PROSESS TEST
+            </p>
+            <p
+              class="wow fadeInDown"
+              data-wow-delay="0.2s"
+              style="font-size: 10px; margin-bottom: 20px"
+            >
+            <strong>
+              <p
+              style="color: white; font-size: 14px"
+              >
+              "민감한 정보는 보이지않습니다."
+            </p>
+            </strong>
+              </p>
+              <img
+                class="wow fadeInUp"
+                data-wow-delay="0.2s"
+                data-src="https://imgur.com/dda0C5A.jpeg"
+                alt="Shopper"
+              />
+            </p>
+          </div>
+          
+        </div>
+      </div>
+      <!-- end section -->
+      
+      
+      <!-- begin section -->
+      <div class="section" data-anchor="contact">
+        <div class="content wow fadeInDown" data-wow-delay="0.2s">
+          <h1>CONTACT ME</h1>
+          <div class="contact-form">
+            <div>
+              <h1
+                class="wow fadeInDown"
+                data-wow-delay="0.2s"
+                style="color: white; font-size: 40px"
+              >
+                010-2359-7526
+              </h1>
+            </div>
+            <div>
+              <h1
+                class="wow fadeInDown"
+                data-wow-delay="0.2s"
+                style="color: white; font-size: 40px"
+              >
+                showme314@naver.com
+              </h1>
+            </div>
+            <div>
+              <h1
+                class="wow fadeInDown"
+                data-wow-delay="0.2s"
+                style="color: white; font-size: 40px"
+              >
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end section -->
+
+      <!-- begin section -->
+      <div class="section fp-auto-height">
+        <div class="footer">
+          <p>CONNECT WITH ME</p>
+          <div class="social-links">
+            <a href="https://github.com/Suno7526" target="_blank"
+              ><i class="fa fa-github fa-2x"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <!-- end section -->
+    </div>
+    <!-- end fullpage -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        // typing animation
+        (function ($) {
+          $.fn.writeText = function (content) {
+            var contentArray = content.split(""),
+              current = 0,
+              elem = this;
+            setInterval(function () {
+              if (current < contentArray.length) {
+                elem.text(elem.text() + contentArray[current++]);
+              }
+            }, 30);
+          };
+        })(jQuery);
+
+        // input text for typing animation
+        $("#holder").writeText("DEVLOPER + TESTER");
+        $("#holder-2").writeText(
+          "안녕하세요 도전하고 성장하는 개발자 권순호입니다. "
+        );
+        $("#holder-3").writeText(
+          "LOL 프로게이머를 했을 만큼 게임에 관심이 많고 "
+        );
+        $("#holder-4").writeText(
+          "프로젝트를 진행 하며 개발 프로세스에 대해 경험을 갖추어"
+        );
+        $("#holder-5").writeText(
+          "유저가 사용하기 편하고, 개발자가 개발하기 용이한 TestCase와 개발 기획을 작성합니다."
+        );
+
+        // initialize wow.js
+        new WOW().init();
+
+        // Push the body and the nav over by 285px over
+        var main = function () {
+          $(".fa-bars").click(function () {
+            $(".nav-screen").animate(
+              {
+                right: "0px",
+              },
+              200
+            );
+
+            $("body").animate(
+              {
+                right: "285px",
+              },
+              200
+            );
+          });
+
+          // Then push them back */
+          $(".fa-times").click(function () {
+            $(".nav-screen").animate(
+              {
+                right: "-285px",
+              },
+              200
+            );
+
+            $("body").animate(
+              {
+                right: "0px",
+              },
+              200
+            );
+          });
+
+          $(".nav-links a").click(function () {
+            $(".nav-screen").animate(
+              {
+                right: "-285px",
+              },
+              500
+            );
+
+            $("body").animate(
+              {
+                right: "0px",
+              },
+              500
+            );
+          });
+        };
+
+        $(document).ready(main);
+
+        var scrollInProgress = false;
+
+        // Modify the event listener for the wheel event
+        $(document).on("wheel", function (e) {
+          if (scrollInProgress) {
+            e.preventDefault(); // 중복 스크롤 방지
+            return;
+          }
+
+          scrollInProgress = true;
+
+          setTimeout(function () {
+            scrollInProgress = false;
+          }, 700); // 애니메이션 전환이 끝날 때까지 대기 (scrollingSpeed와 동일한 시간)
+        });
+
+        // initiate full page scroll
+        $("#fullpage").fullpage({
+          scrollBar: true,
+          responsiveWidth: 400,
+          navigation: true,
+          navigationTooltips: [
+            "home",
+            "about",
+            "portfolio",
+            "contact",
+            "connect",
+            "career",
+          ],
+          anchors: ["home", "about", "portfolio", "contact", "connect","career"],
+          menu: "#myMenu",
+          fitToSection: true,
+          scrollingSpeed: 700, // 스크롤 전환 속도를 700ms로 설정
+          autoScrolling: false, // 자동 스크롤을 활성화하여 수동 스크롤과 충돌하지 않도록 설정
+          afterLoad: function (anchorLink, index) {
+            // 애니메이션이 끝난 후 작업
+            if (index == 1) {
+              $(".fa-chevron-down").css("opacity", "1");
+              $(".header-links a").css("color", "white");
+              $(".header-links").css("background-color", "transparent");
+            } else {
+              $(".header-links a").css("color", "black");
+              $(".header-links").css("background-color", "white");
+            }
+          },
+          onLeave: function (index, nextIndex, direction) {
+            // 스크롤을 넘어설 때 애니메이션 효과 추가
+            $(".skillbar").each(function () {
+              $(this)
+                .find(".skillbar-bar")
+                .animate(
+                  {
+                    width: $(this).attr("data-percent"),
+                  },
+                  2500
+                );
+            });
+          },
+        });
+        // move section down one
+        $(document).on("click", "#moveDown", function () {
+          $.fn.fullpage.moveSectionDown();
+        });
+
+        // fullpage.js link navigation
+        $(document).on("click", "#skills", function () {
+          $.fn.fullpage.moveTo(2);
+        });
+
+        $(document).on("click", "#projects", function () {
+          $.fn.fullpage.moveTo(5);
+        });
+
+        $(document).on("click", "#contact", function () {
+          $.fn.fullpage.moveTo(4);
+        });
+        $(document).on("click", "#career", function () {
+          $.fn.fullpage.moveTo(3);
+        });
+
+        // smooth scrolling
+        $(function () {
+          $("a[href*=#]:not([href=#])").click(function () {
+            if (
+              location.pathname.replace(/^\//, "") ==
+                this.pathname.replace(/^\//, "") &&
+              location.hostname == this.hostname
+            ) {
+              var target = $(this.hash);
+              target = target.length
+                ? target
+                : $("[name=" + this.hash.slice(1) + "]");
+              if (target.length) {
+                $("html,body").animate(
+                  {
+                    scrollTop: target.offset().top,
+                  },
+                  700
+                );
+                return false;
+              }
+            }
+          });
+        }); 
+      });
+    </script>
+  </body>
+</html>

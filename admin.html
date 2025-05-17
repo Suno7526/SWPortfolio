@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>운세 관리자 페이지</title>
+  <link rel="stylesheet" href="admin.css" />
+  <style>
+    td.clickable {
+      cursor: pointer;
+      color: #3498db;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>운세 관리 페이지</h1>
+
+    <div class="add-fortune">
+      <button onclick="alert('운세 추가 폼')">+ 운세 추가</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>제목</th>
+          <th>내용</th>
+          <th>카드 종류</th>
+          <th>작성일</th>
+          <th>관리</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 운세 항목 반복 -->
+        <tr>
+          <td>1</td>
+          <td>오늘의 연애 운</td>
+          <td class="clickable" onclick="showContent(`오늘은 당신의 진심이 통할 수 있는 하루입니다. 특히 가까운 사람과의 대화에서 솔직한 표현이 큰 변화를 가져올 수 있습니다. 감정을 숨기지 말고 자연스럽게 표현해보세요. 따뜻한 커뮤니케이션은 사랑운을 더욱 좋게 만듭니다.`)">
+            오늘은 당신의 진심이 통할 수 있는 하루입니다...
+          </td>
+          <td>사랑의 여왕</td>
+          <td>2025-05-17</td>
+          <td class="actions">
+            <button class="edit-btn" onclick="alert('수정 페이지 이동')">수정</button>
+            <button class="delete-btn" onclick="alert('정말 삭제하시겠습니까?')">삭제</button>
+          </td>
+        </tr>
+        <!-- 원하는 만큼 tr 추가 가능 -->
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    function showContent(fullText) {
+      alert(fullText);
+    }
+  </script>
+</body>
+</html>

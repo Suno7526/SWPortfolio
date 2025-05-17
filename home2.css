@@ -1,6 +1,7 @@
 /* general styles */
 
 body {
+  font-family: "Raleway", sans-serif !important;
   background-color: black;
 }
 
@@ -44,7 +45,8 @@ h1 {
 
 p {
   margin: 10px;
-  font-size: 18px;
+  font-size: 20px;
+  font-weight: 100;
   color: white;
 }
 
